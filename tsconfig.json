@@ -17,7 +17,8 @@
     "baseUrl": ".",
     "paths": {
       "@nx-hybrid-demo/ngx-xis": ["libs/ngx-xis/src/index.ts"],
-      "@nx-hybrid-demo/rx-xis": ["libs/rx-xis/src/index.ts"]
+      "@nx-hybrid-demo/rx-xis": ["libs/rx-xis/src/index.ts"],
+      "@nx-hybrid-demo/shared": ["libs/shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

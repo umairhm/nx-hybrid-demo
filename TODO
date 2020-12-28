@@ -1,3 +1,9 @@
 
 Todo:
-  ☐ Add tags in nx.json
+  ✔ Add tags in nx @low @done(20-06-21 18:25)
+  ☐ Add commit linting pre-commit hook @high
+  ☐ Update the React Button to use Rebass and other required stuff @critical 
+  ☐ Create a shared lib for data mocking @high 
+  ☐ Set up documentation automation @high
+  
+

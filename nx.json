@@ -20,25 +20,31 @@
   },
   "projects": {
     "ngx-xis-app": {
-      "tags": []
+      "tags": ["scope:ngx"],
+      "implicitDependencies": ["ngx-xis", "shared"]
     },
     "ngx-xis-app-e2e": {
-      "tags": [],
-      "implicitDependencies": ["ngx-xis-app"]
+      "tags": ["scope:ngx"],
+      "implicitDependencies": ["ngx-xis","ngx-xis-app", "shared"]
     },
     "rx-xis-app": {
       "tags": ["scope:rx"],
-      "implicitDependencies": ["rx-xis"]
+      "implicitDependencies": ["rx-xis", "shared"]
     },
     "rx-xis-app-e2e": {
-      "tags": [],
-      "implicitDependencies": ["rx-xis-app"]
+      "tags": ["scope:rx"],
+      "implicitDependencies": ["rx-xis", "rx-xis-app", "shared"]
     },
     "ngx-xis": {
-      "tags": []
+      "tags": ["scope:ngx"],
+      "implicitDependencies": ["shared"]
     },
     "rx-xis": {
-      "tags": ["scope:rx"]
+      "tags": ["scope:rx"],
+      "implicitDependencies": ["shared"]
+    },
+    "shared": {
+      "tags": ["scope:shared"]
     }
   }
 }
