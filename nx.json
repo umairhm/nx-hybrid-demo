@@ -25,7 +25,7 @@
     },
     "ngx-xis-app-e2e": {
       "tags": ["scope:ngx"],
-      "implicitDependencies": ["ngx-xis","ngx-xis-app", "shared"]
+      "implicitDependencies": ["ngx-xis", "ngx-xis-app", "shared"]
     },
     "rx-xis-app": {
       "tags": ["scope:rx"],
