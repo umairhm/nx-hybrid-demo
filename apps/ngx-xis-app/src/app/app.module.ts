@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     RouterModule.forRoot([], { initialNavigation: 'enabled' }),
-    NgxXisModule
+    NgxXisModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
